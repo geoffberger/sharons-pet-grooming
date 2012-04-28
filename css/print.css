@@ -1,0 +1,39 @@
+.sIFR-flash {
+  display    : none !important;
+  height     : 0;
+  width      : 0;
+  position   : absolute;
+  overflow   : hidden;
+}
+
+.sIFR-alternate {
+  visibility : visible !important;
+  display    : block   !important;
+  position   : static  !important;
+  left       : auto    !important;
+  top        : auto    !important;
+  width      : auto    !important;
+  height     : auto    !important;
+}
+
+.tel .type { display:none; }
+
+* { margin:0; padding:0; }
+
+body { background:#fff; font:12pt Times, Georgia, serif; }
+
+h1 { font:bold 22pt Arial, Verdana, sans-serif; padding-bottom:2px; }
+h2, h3, h4 { font:18pt Arial, Verdana, sans-serif; text-align:left; padding-top:10px; }
+h3 { padding-bottom:10px; }
+p { margin-bottom:15px; line-height:14pt; }
+a { color:#000; text-decoration:none; }
+ul { list-style-type: disc; margin:0 0 10px 30px; }
+li { margin-bottom:5px; }
+abbr { border:none; }
+
+#branding { font-family: Arial, Verdana, sans-serif; }
+#copyright { padding-top:30px; font-weight:bold; }
+#contactInfo span { display:block; margin-bottom:2px; }
+#contactInfo .tel .type { display:none; }
+#contactInfo .locality, #contactInfo .region, #contactInfo .postal-code { display:inline; margin-bottom:0px; } 
+#contactInfo .street-address { margin-bottom:0px; }
